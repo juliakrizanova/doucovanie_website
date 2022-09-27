@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Gagalin';
+    src: url('fonts/Gagalin-Regular.eot');
+    src: url('fonts/Gagalin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gagalin-Regular.woff2') format('woff2'),
+        url('fonts/Gagalin-Regular.woff') format('woff'),
+        url('fonts/Gagalin-Regular.ttf') format('truetype'),
+        url('fonts/Gagalin-Regular.svg#Gagalin-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.shadow{
+    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+table td{
+    padding: 5px;
+    margin: 5px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Gagalin" !important}
+
